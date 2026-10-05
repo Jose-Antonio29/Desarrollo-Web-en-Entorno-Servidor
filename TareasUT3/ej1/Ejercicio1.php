@@ -18,17 +18,13 @@
 
     <?php
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            if (($_POST['num1'] !== '' && $_POST['num2'] !== '')) {
-                $num1 = (float) $_POST['num1'];
-                $num2 = (float) $_POST['num2'];
+            $num1 = (float) $_POST['num1'];
+            $num2 = (float) $_POST['num2'];
 
-                echo($num1.' + '.$num2.' = '.($num1+$num2).'<br>');
-                echo($num1.' - '.$num2.' = '.($num1-$num2).'<br>');
-                echo($num1.' * '.$num2.' = '.($num1*$num2).'<br>');
-                echo($num1.' / '.$num2.' = '.($num1/$num2).'<br>');
-            } else {
-                echo('Debe introducir números decimales');
-            }
+            echo($num1.' + '.$num2.' = '.($num1+$num2).'<br>');
+            echo($num1.' - '.$num2.' = '.($num1-$num2).'<br>');
+            echo($num1.' * '.$num2.' = '.($num1*$num2).'<br>');
+            echo($num1.' / '.$num2.' = '.($num1/$num2).'<br>');
         }
         
     ?>

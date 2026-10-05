@@ -22,6 +22,10 @@
         <input type="button" value="Ejercicio10" class="ej10" onclick="window.location.href = './ej10'">
         <input type="button" value="Ejercicio11" class="ej11" onclick="window.location.href = './ej11'">
         <input type="button" value="Ejercicio12" class="ej12" onclick="window.location.href = './ej12'">
+        <input type="button" value="Ejercicio13" class="ej13" onclick="window.location.href = './ej13'">
+        <input type="button" value="Ejercicio14" class="ej14" onclick="window.location.href = './ej14'">
+        <input type="button" value="Ejercicio15" class="ej15" onclick="window.location.href = './ej15'">
+        <input type="button" value="Ejercicio16" class="ej16" onclick="window.location.href = './ej16'">
     </div>
 
 </body>
