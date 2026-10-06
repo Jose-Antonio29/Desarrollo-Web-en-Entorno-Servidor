@@ -14,14 +14,19 @@
 
     <?php
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            $x = $_POST['num'];    
+            $x = $_POST['num'];
+            $espacios = 0;    
             if ($x < 0) {
                 echo("Debes introducir un número entero positivo");
             } else {
                 for ($i = 1; $i <= $x; $i++) {
+                    for ($j = 0; $j < $espacios; $j++) {
+                        echo("&nbsp;&nbsp;");
+                    }
                     for ($j = $x; $j >= $i; $j--) {
                         echo("*");
                     }
+                    $espacios++;
                     echo("<br>");
                 }
             }

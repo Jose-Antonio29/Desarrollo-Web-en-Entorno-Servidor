@@ -7,9 +7,22 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    border-radius: 10px;
     background-color: beige;
 }
 
+.boton {
+    background-color: #007bff; 
+    color: #ffffff;
+    border: 2px solid #0056b3;
+    border-radius: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
 
 
