@@ -15,7 +15,7 @@
     $descuento=$row['descuento'];
 ?>
 
-<form action="altas.php" method="post" enctype="multipart/form-data">
+<form action="modificacion.php" method="post" enctype="multipart/form-data">
 	<table width="400" border="0">
 	<tr>
 		<td colspan="4">MODIFICACIÓN DE PRODUCTOS</td>
